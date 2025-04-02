@@ -53,8 +53,8 @@ optionImages.forEach((image, index) => {
                 BC: 'Cpu',
                 BS: 'User',
                 SS: 'Empate',
-                SC: 'Cpu',
-                SB: 'User'
+                SC: 'User',
+                SB: 'Cpu'
             }
 
             let outComeValue = outcomes[userValue + cpuValue]
