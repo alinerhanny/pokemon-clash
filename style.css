@@ -33,7 +33,7 @@ body {
     width: 100px;
 }
 
-.user_result img.flipped {
+.cpu_result img {
     transform: scaleX(-1);
 }
 
