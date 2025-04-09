@@ -39,12 +39,6 @@ optionImages.forEach((image, index) => {
             userResult.src = userPokemonSrc
             cpuResult.src = cpuPokemonSrc
 
-            if (userPokemonSrc.includes('charmander')) {
-                userResult.classList.add('flipped')
-            } else {
-                userResult.classList.remove('flipped')
-            }
-
             let outcomes = {
                 CC: 'Empate',
                 CB: 'User',
